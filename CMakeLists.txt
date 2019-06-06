@@ -9,7 +9,7 @@ set(CMAKE_C_EXTENSIONS OFF)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN_TEST -I../source -I../cpputest/include -Wall -Wextra -Wno-long-long -pedantic")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN_TEST -I../source -I../cpputest/include -Wall -Wextra -Wno-long-long -pedantic")
 
-add_executable(HelloWorld.exe
+add_executable(HelloWorld
   ./main.c
 )
 
