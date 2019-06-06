@@ -1,7 +1,7 @@
 # abstract
-This is a test Project for recipe-tool
+This is a test Project for recipetool.
 
 # usage
 ```
-$ recipetool create -o HelloWorld_git.bb https://github.com/tkashi-github/HelloWorld
+$ recipetool create -o HelloWorld_git.bb https://github.com/tkashi-github/HelloWorld.git
 ```
